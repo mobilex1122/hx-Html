@@ -1,0 +1,11 @@
+{
+    "name": "hx-http",
+    "url" : "https://github.com/jasononeil/useless/",
+    "license": "MIT",
+    "tags": ["http-server", "useless"],
+    "description": "HTTP server framework.",
+    "version": "0.0.1",
+    "classPath": "src/",
+    "releasenote": "Initial release. Work in progress version.",
+    "contributors": ["Juraj","Jason","Nicolas"]
+  }
