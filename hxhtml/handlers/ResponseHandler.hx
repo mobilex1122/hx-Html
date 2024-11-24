@@ -1,7 +1,7 @@
-package src.handlers;
+package hxhtml.handlers;
 
 import sys.net.Socket;
-import src.types.*;
+import hxhtml.types.*;
 
 class ResponseHandler {
   

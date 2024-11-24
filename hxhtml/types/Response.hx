@@ -1,11 +1,6 @@
-package src.types;
+package hxhtml.types;
 
 import haxe.io.BytesOutput;
-import haxe.io.StringInput;
-import haxe.io.Bytes;
-import haxe.io.BytesInput;
-import haxe.io.Input;
-import src.types.Header;
 
 class Response {
     private var headers:Array<Header>;

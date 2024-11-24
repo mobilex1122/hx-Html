@@ -1,4 +1,5 @@
-import src.types.Response;
+package ;
+import hxhtml.types.Response;
 
 class Test extends HtmlServer {
     static function main() {

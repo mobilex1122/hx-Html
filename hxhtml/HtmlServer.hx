@@ -1,10 +1,10 @@
 package ;
 
-import src.handlers.ClientHandler;
 import sys.net.Host;
 import sys.net.Socket;
 
-import src.types.*;
+import hxhtml.handlers.ClientHandler;
+import hxhtml.types.*;
 
 abstract class HtmlServer {
     public function new(host:String,port:Int,handler: Request->Response) {
@@ -13,8 +13,8 @@ abstract class HtmlServer {
         #end
         var socket = new Socket();
 
-        var host = new Host("127.0.0.1");
-        socket.bind(host,8080);
+        var hostObj = new Host(host);
+        socket.bind(hostObj,port);
 
         socket.listen(100);
 

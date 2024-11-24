@@ -1,4 +1,4 @@
-package src.types;
+package hxhtml.types;
 
 enum HttpMethod {
     GET;

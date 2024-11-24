@@ -1,4 +1,4 @@
---class-path src
+--class-path hxhtml
 --hl bin/app.hl
 --main Test
 --cmd hl bin/app.hl

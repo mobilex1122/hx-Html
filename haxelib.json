@@ -3,9 +3,9 @@
     "url" : "https://github.com/mobilex1122/hx-http",
     "license": "MIT",
     "tags": ["http-server"],
-    "description": "HTTP server framework.",
-    "version": "0.0.1-alpha",
+    "description": "HTTP base server.",
+    "version": "1.0.0-alpha",
     "classPath": "src/",
-    "releasenote": "Initial release. Work in progress version.",
+    "releasenote": "Fixed package naming to prevent conflicts.",
     "contributors": ["mobilex1122"]
   }

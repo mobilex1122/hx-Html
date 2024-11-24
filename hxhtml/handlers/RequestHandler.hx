@@ -1,11 +1,11 @@
-package src.handlers;
+package hxhtml.handlers;
 
-import src.types.Header;
 import sys.net.Socket;
-import src.types.*;
+import hxhtml.types.*;
 
 class RequestHandler {
     public static function handle(client:Socket) {
+        //TODO: Add Path and Method info
         var protocol = client.input.readLine();
         var lines:Array<String> = [];
         var receving = true;

@@ -1,5 +1,6 @@
-package src.types;
+package hxhtml.types;
 class ResponseStatus {
+    //TODO: Add all Error codes
     private static var statusCodes:Map<Int,String> = [
         200=>"200 OK",
         500=>"500 Internal Server Error",
