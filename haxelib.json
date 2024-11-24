@@ -1,7 +1,7 @@
 {
     "name": "hx-http",
     "url" : "https://github.com/mobilex1122/hx-http",
-    "license": "JPML 1.2",
+    "license": "MIT",
     "tags": ["http-server"],
     "description": "HTTP server framework.",
     "version": "0.0.1",
