@@ -9,7 +9,7 @@ import src.types.*;
 abstract class HtmlServer {
     public function new(host:String,port:Int,handler: Request->Response) {
         #if (!target.threaded)
-            throw("Html Server can't run without thread support on the target!");
+            throw("Unsupported target! Requires 'sys.thread' support");
         #end
         var socket = new Socket();
 
