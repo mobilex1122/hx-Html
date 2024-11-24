@@ -5,7 +5,7 @@
     "tags": ["http-server"],
     "description": "HTTP base server.",
     "version": "1.0.0-alpha",
-    "classPath": "src/",
+    "classPath": "hxhtml/",
     "releasenote": "Fixed package naming to prevent conflicts.",
     "contributors": ["mobilex1122"]
   }

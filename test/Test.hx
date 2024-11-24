@@ -1,5 +1,7 @@
-package ;
+package;
+import hxhtml.HtmlServer;
 import hxhtml.types.Response;
+
 
 class Test extends HtmlServer {
     static function main() {

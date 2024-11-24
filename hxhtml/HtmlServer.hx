@@ -1,4 +1,4 @@
-package ;
+package hxhtml;
 
 import sys.net.Host;
 import sys.net.Socket;

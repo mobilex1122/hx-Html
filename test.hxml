@@ -1,4 +1,5 @@
---class-path hxhtml
+--class-path test
 --hl bin/app.hl
+-lib hx-http
 --main Test
 --cmd hl bin/app.hl
