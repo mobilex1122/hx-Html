@@ -4,7 +4,7 @@
     "license": "MIT",
     "tags": ["http-server"],
     "description": "HTTP server framework.",
-    "version": "0.0.1",
+    "version": "0.0.1-alpha",
     "classPath": "src/",
     "releasenote": "Initial release. Work in progress version.",
     "contributors": ["mobilex1122"]
